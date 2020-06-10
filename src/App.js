@@ -67,8 +67,11 @@ class BooksApp extends React.Component {
         <Route path="/search"
           render={() => (
             <SearchBooks
-              books={this.searchForBooks}
+              searchBooks={this.state.searchBooks}
+              myBooks={books}
+              onSearch={this.searchForBooks}
               onMove={this.moveBook}
+              onResetSearch={this.resetSearch}
             />
           )}
         />
