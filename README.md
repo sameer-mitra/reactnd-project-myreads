@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Table of Contents
 
-- [Introduction](#Introduction)
-- [Instructions](#Instructions)
-- [Specifications] (#Specifications)
-- [App Structure](#Structure)
-- [Backend Server](#Backend_Server)
+- [Introduction](#introduction)
+- [Instructions](#instructions)
+- [Specifications] (#specifications)
+- [App Structure](#structure)
+- [Backend Server](#backend_Server)
 
 ## Introduction
 
@@ -39,11 +39,11 @@ This is project is a book tracking application that allows the user to search th
   - Verify that:
     1. The search page has a search input field.
 	2. The search page behaves correctly:
-		a) As the user types into the search field, books that match the query are displayed on the page, along with their titles and authors. You can use throttle/debounce but are not required to do so.
-		b) Search results are not shown when all of the text is deleted out of the search input box.
-		c) Invalid queries are handled and prior search results are not shown.
-		d) The search works correctly when a book does not have a thumbnail or an author. (To test this, try searching for "poetry" and "biography"). (It's fine to filter out books with missing thumbnails.)
-		e) The user is able to search for multiple words, such as “artificial intelligence.”
+		- As the user types into the search field, books that match the query are displayed on the page, along with their titles and authors. You can use throttle/debounce but are not required to do so.
+		- Search results are not shown when all of the text is deleted out of the search input box.
+		- Invalid queries are handled and prior search results are not shown.
+		- The search works correctly when a book does not have a thumbnail or an author. (To test this, try searching for "poetry" and "biography"). (It's fine to filter out books with missing thumbnails.)
+		- The user is able to search for multiple words, such as “artificial intelligence.”
   - Verify that the search results on the search page allow the user to select “currently reading”, “want to read”, or “read” to place the book in a certain shelf.
   - Verify that if a book is assigned to a shelf on the main page and that book appears on the search page, the correct shelf should be selected on the search page. If that book's shelf is changed on the search page, that change should be reflected on the main page as well. The option "None" should be selected if a book has not been assigned to a shelf.
   - Verify that when an item is categorized on the search page and the user navigates to the main page, it appears on that shelf in the main page.
