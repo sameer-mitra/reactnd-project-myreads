@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [Introduction](#introduction)
 - [Instructions](#instructions)
-- [Specifications] (#specifications)
+- [Specifications](#specifications)
 - [App Structure](#structure)
 - [Backend Server](#backend_Server)
 
@@ -74,25 +74,25 @@ This is project is a book tracking application that allows the user to search th
 │   └── index.html # Base HTML file with boilerplate html for app and script  tags to load main js file.
 └── src
     ├── components
-	│ 	├── Book.js # Book with book image, title and author.
-	│ 	├── BookCase.js # Book case that has multiple shelves.
-	│ 	├── BookShelf.js # Shelf that keeps books.
-	│ 	├── BookShelfChanger.js # Component that places book in shelf.
-	│ 	├── OpenSearchBtn.js # Component that moves to Search page.
-	│ 	├── SearchBar.js # The top component that has a back button and unput list to enter search terms.
-	│ 	└── SearchResults.js # The results section in the Search Page.
-	├── icons # images/icons used in app interface. 
-	│	├── add.svg
-	│	├── arrow-back.svg
-	│	└── arrow-drop-down.svg
+    │   ├── Book.js # Book with book image, title and author.
+    │   ├── BookCase.js # Book case that has multiple shelves.
+    │   ├── BookShelf.js # Shelf that keeps books.
+    │   ├── BookShelfChanger.js # Component that places book in shelf.
+    │   ├── OpenSearchBtn.js # Component that moves to Search page.
+    │   ├── SearchBar.js # The top component that has a back button and unput list to enter search terms.
+    │   └── SearchResults.js # The results section in the Search Page.
+    ├── icons # images/icons used in app interface. 
+    │   ├── add.svg
+    │   ├── arrow-back.svg
+    │   └── arrow-drop-down.svg
     ├── App.css # Styles for your app. 
     ├── App.js # This is the root(parent)component of the app (class based) which houses all pages and other components of app as well as routing.
     ├── App.test.js # Used for testing. Provided with Create React App. 
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
     ├── index.css # Global styles. 
     ├── index.js # Primary JavaScript file in project. It is used for DOM rendering only (ReactDOM.render method call).
-	├── ListBooks.js # Main Page with the book case. 
-	└── SearchBooks.js # Search Page with the SearchBar and Search Results.
+    ├── ListBooks.js # Main Page with the book case. 
+    └── SearchBooks.js # Search Page with the SearchBar and Search Results.
 ```
 
   ## Backend_Server
