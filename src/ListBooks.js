@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import {Link} from 'react-router-dom';
 import BookCase from './components/BookCase.js'
 import OpenSearchButton from './components/OpenSearchButton.js'
 
