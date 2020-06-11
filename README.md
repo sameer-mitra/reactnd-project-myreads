@@ -51,8 +51,7 @@ This is project is a book tracking application that allows the user to search th
 
   ### Routing
   - Verify that the main page contains a link to the search page. When the link is clicked, the search page is displayed and the URL in the browser’s address bar is /search.
-  - Verify that the main page shows a control that allows users to move books between shelves. The control should be tied to each book instance. The functionality of moving a book to a different shelf works correctly.
-  - Verify that when the browser is refreshed, the same information is displayed on the page.
+  - The search page contains a link to the main page. When the link is clicked, the main page is displayed and the URL in the browser’s address bar is /.
   
   ### Code Functionality
   - Verify that component state is passed down from parent components to child components. The state variable is not modified directly - setState() function is used correctly.
