@@ -96,7 +96,7 @@ This is project is a book tracking application that allows the user to search th
 
   ## Backend_Server
 
-  To simplify your development process, we've provided a backend server for you to develop against. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods you will need to perform necessary operations on the backend:
+  The backend Server is provided by Udacity. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods needed to perform necessary operations on the backend:
 
   * [`getAll`](#getall)
   * [`update`](#update)
