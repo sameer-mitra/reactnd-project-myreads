@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # MyReads Project by Sameer Mitra
 
+## Live Demo
+https://sameer-mitra-myreads.netlify.app/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
